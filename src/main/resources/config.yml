@@ -1,0 +1,5 @@
+# How many seconds should the server check if a player is standing on a Stonecutter
+CheckInSeconds: 1
+
+# How many damage should the player receive every (CheckInSeconds)
+Damage: 3.0

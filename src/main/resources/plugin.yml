@@ -1,0 +1,10 @@
+name: CutterDamage
+version: ${project.version}
+main: me.greaperc4.cutterdamage.CutterDamage
+api-version: 1.13
+authors: [ greaperc4 ]
+description: Damages players while standing on a StoneCutter
+
+permissions:
+  cutterdamage.ignore:
+    description: Players with this permission will not get damaged
