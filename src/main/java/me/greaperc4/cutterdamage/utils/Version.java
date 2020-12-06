@@ -42,8 +42,8 @@ public enum Version {
         return id;
     }
 
-    public String getShortVersionName() {
-        return Bukkit.getBukkitVersion().split("-")[0];
+    public static String getTrueVersion(Version version) {
+        return version.name().replace('_', '.');
     }
 
     public static boolean equals(int version) {
